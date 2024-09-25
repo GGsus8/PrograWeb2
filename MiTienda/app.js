@@ -15,6 +15,7 @@ function mostrarMenu() {
         5.-Ver Carrito y Total
         6.-Salir`));
 }
+//funcion que agrega al arreglo carrito las prendas y su precio. sirve como la funcion principal
 function agregarCarrito() {
     let continuar = true;
     while (continuar) {
@@ -65,6 +66,7 @@ function agregarCarrito() {
     }
     alert("Programa finalizado...")
 }
+//Funcion que imprime los elementos del carrito y su precio total
 function verCarritoTotal() {
     if (carrito.length === 0) {
         alert("Carrito vacio");
